@@ -1,0 +1,4 @@
+change paths in code for train and test files.
+execute as follows:=
+
+python memory-naive-bayes.py

@@ -1,0 +1,137 @@
+No configs found; falling back on auto-configuration
+Using Hadoop version 2.7.3.2.6.1.0
+Creating temp directory /tmp/NB_hadoop.sonalis772.20170921.214423.955730
+Copying local files to hdfs:///user/sonalis772/tmp/mrjob/NB_hadoop.sonalis772.20170921.214423.955730/files/...
+Detected hadoop configuration property names that do not match hadoop version 2.7.3.2.6.1.0:
+The have been translated as follows
+ mapred.map.tasks: mapreduce.job.maps
+mapred.reduce.tasks: mapreduce.job.reduces
+Running step 1 of 1...
+  packageJobJar: [] [/usr/hdp/2.6.1.0-129/hadoop-mapreduce/hadoop-streaming-2.7.3.2.6.1.0-129.jar] /tmp/streamjob3813838592531099406.jar tmpDir=null
+  Connecting to ResourceManager at turing.cds.iisc.ac.in/10.24.1.32:8050
+  Connecting to Application History server at turing.cds.iisc.ac.in/10.24.1.32:10200
+  Connecting to ResourceManager at turing.cds.iisc.ac.in/10.24.1.32:8050
+  Connecting to Application History server at turing.cds.iisc.ac.in/10.24.1.32:10200
+  Total input paths to process : 1
+  number of splits:10
+  Submitting tokens for job: job_1503400455897_1535
+  Submitted application application_1503400455897_1535
+  The url to track the job: http://turing.cds.iisc.ac.in:8088/proxy/application_1503400455897_1535/
+  Running job: job_1503400455897_1535
+  Job job_1503400455897_1535 running in uber mode : false
+   map 0% reduce 0%
+   map 4% reduce 0%
+   map 7% reduce 0%
+   map 9% reduce 0%
+   map 11% reduce 0%
+   map 13% reduce 0%
+   map 15% reduce 0%
+   map 17% reduce 0%
+   map 19% reduce 0%
+   map 21% reduce 0%
+   map 23% reduce 0%
+   map 25% reduce 0%
+   map 27% reduce 0%
+   map 29% reduce 0%
+   map 31% reduce 0%
+   map 33% reduce 0%
+   map 35% reduce 0%
+   map 37% reduce 0%
+   map 39% reduce 0%
+   map 42% reduce 0%
+   map 43% reduce 0%
+   map 46% reduce 0%
+   map 48% reduce 0%
+   map 50% reduce 0%
+   map 52% reduce 0%
+   map 55% reduce 0%
+   map 56% reduce 0%
+   map 59% reduce 0%
+   map 60% reduce 0%
+   map 63% reduce 0%
+   map 65% reduce 0%
+   map 66% reduce 0%
+   map 69% reduce 0%
+   map 71% reduce 0%
+   map 78% reduce 0%
+   map 82% reduce 0%
+   map 83% reduce 0%
+   map 83% reduce 17%
+   map 87% reduce 17%
+   map 90% reduce 17%
+   map 97% reduce 23%
+   map 97% reduce 30%
+   map 100% reduce 30%
+   map 100% reduce 53%
+   map 100% reduce 68%
+   map 100% reduce 72%
+   map 100% reduce 76%
+   map 100% reduce 79%
+   map 100% reduce 85%
+   map 100% reduce 89%
+   map 100% reduce 93%
+   map 100% reduce 96%
+   map 100% reduce 98%
+   map 100% reduce 99%
+   map 100% reduce 100%
+  Job job_1503400455897_1535 completed successfully
+  Output directory: hdfs:///user/sonalis772/tmp/mrjob/NB_hadoop.sonalis772.20170921.214423.955730/output
+Counters: 49
+	File Input Format Counters 
+		Bytes Read=132270812
+	File Output Format Counters 
+		Bytes Written=46452332
+	File System Counters
+		FILE: Number of bytes read=1341344204
+		FILE: Number of bytes written=2685710238
+		FILE: Number of large read operations=0
+		FILE: Number of read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=132272092
+		HDFS: Number of bytes written=46452332
+		HDFS: Number of large read operations=0
+		HDFS: Number of read operations=60
+		HDFS: Number of write operations=20
+	Job Counters 
+		Launched map tasks=10
+		Launched reduce tasks=10
+		Rack-local map tasks=10
+		Total megabyte-milliseconds taken by all map tasks=3652257792
+		Total megabyte-milliseconds taken by all reduce tasks=5584969728
+		Total time spent by all map tasks (ms)=594443
+		Total time spent by all maps in occupied slots (ms)=3566658
+		Total time spent by all reduce tasks (ms)=454506
+		Total time spent by all reduces in occupied slots (ms)=5454072
+		Total vcore-milliseconds taken by all map tasks=594443
+		Total vcore-milliseconds taken by all reduce tasks=454506
+	Map-Reduce Framework
+		CPU time spent (ms)=1024730
+		Combine input records=0
+		Combine output records=0
+		Failed Shuffles=0
+		GC time elapsed (ms)=5052
+		Input split bytes=1280
+		Map input records=214997
+		Map output bytes=1271604724
+		Map output materialized bytes=1341344744
+		Map output records=34869710
+		Merged Map outputs=100
+		Physical memory (bytes) snapshot=26241548288
+		Reduce input groups=1089004
+		Reduce input records=34869710
+		Reduce output records=1089004
+		Reduce shuffle bytes=1341344744
+		Shuffled Maps =100
+		Spilled Records=69739420
+		Total committed heap usage (bytes)=25524961280
+		Virtual memory (bytes) snapshot=194914693120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+Streaming final output from hdfs:///user/sonalis772/tmp/mrjob/NB_hadoop.sonalis772.20170921.214423.955730/output...
+Removing HDFS temp directory hdfs:///user/sonalis772/tmp/mrjob/NB_hadoop.sonalis772.20170921.214423.955730...
+Removing temp directory /tmp/NB_hadoop.sonalis772.20170921.214423.955730...

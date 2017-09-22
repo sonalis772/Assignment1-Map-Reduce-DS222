@@ -1,0 +1,6 @@
+Execute squentially.
+Change paths accordingly.
+
+./remove.sh
+./train.sh
+./test.sh

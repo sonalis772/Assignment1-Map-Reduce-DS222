@@ -1,0 +1,125 @@
+training -2
+
+Average Map Time 	4mins, 35sec
+Average Shuffle Time 	48sec
+Average Merge Time 	8sec
+Average Reduce Time 	2mins, 8sec 
+
+testing -2
+
+Average Map Time 	16sec
+Average Shuffle Time 	22sec
+Average Merge Time 	1sec
+Average Reduce Time 	22sec 
+
+Average Map Time 	9sec
+Average Shuffle Time 	13sec
+Average Merge Time 	2sec
+Average Reduce Time 	15sec 
+
+Average Map Time 	26sec
+Average Shuffle Time 	10sec
+Average Merge Time 	0sec
+Average Reduce Time 	0sec 
+
+training -4
+
+Average Map Time 	2mins, 22sec
+Average Shuffle Time 	33sec
+Average Merge Time 	4sec
+Average Reduce Time 	1mins, 5sec 
+
+
+testing -4
+ 	
+Average Map Time 	12sec
+Average Shuffle Time 	15sec
+Average Merge Time 	0sec
+Average Reduce Time 	12sec 
+
+Average Map Time 	8sec
+Average Shuffle Time 	9sec
+Average Merge Time 	1sec
+Average Reduce Time 	8sec
+
+Average Map Time 	25sec
+Average Shuffle Time 	7sec
+Average Merge Time 	0sec
+Average Reduce Time 	0sec 
+
+training -6
+
+Average Map Time 	1mins, 35sec
+Average Shuffle Time 	23sec
+Average Merge Time 	3sec
+Average Reduce Time 	43sec 
+
+testing -6
+
+Average Map Time 	12sec
+Average Shuffle Time 	9sec
+Average Merge Time 	0sec
+Average Reduce Time 	8sec
+
+ Average Map Time 	7sec
+Average Shuffle Time 	7sec
+Average Merge Time 	0sec
+Average Reduce Time 	6sec 
+
+Average Map Time 	23sec
+Average Shuffle Time 	15sec
+Average Merge Time 	0sec
+Average Reduce Time 	0sec 
+
+training -8
+Average Map Time 	1mins, 18sec
+Average Shuffle Time 	35sec
+Average Merge Time 	2sec
+Average Reduce Time 	33sec 
+
+testing -8
+Average Map Time 	10sec
+Average Shuffle Time 	5sec
+Average Merge Time 	0sec
+Average Reduce Time 	6sec 
+
+Average Map Time 	7sec
+Average Shuffle Time 	6sec
+Average Merge Time 	0sec
+Average Reduce Time 	4sec 
+
+Average Map Time 	26sec
+Average Shuffle Time 	5sec
+Average Merge Time 	0sec
+Average Reduce Time 	0sec 
+
+training -10
+Average Map Time 	59sec
+Average Shuffle Time 	16sec
+Average Merge Time 	2sec
+Average Reduce Time 	26sec 
+
+testing -10
+
+Average Map Time 	13sec
+Average Shuffle Time 	14sec
+Average Merge Time 	0sec
+Average Reduce Time 	5sec
+
+Average Map Time 	8sec
+Average Shuffle Time 	6sec
+Average Merge Time 	0sec
+Average Reduce Time 	4sec 
+
+Average Map Time 	21sec
+Average Shuffle Time 	9sec
+Average Merge Time 	0sec
+Average Reduce Time 	0sec
+
+
+train time in memory NB
+--- 70.5452961922 seconds ---
+
+test time in memory NB
+2103.76823187 seconds
+
